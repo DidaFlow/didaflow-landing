@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "title": "DidaFlow - Revolutionizing University Education",
+    "description": "DidaFlow is coming! The new EdTech platform that will transform the way educational institutions deliver training. Sign up to be among the first to access it.",
+    "keywords": "EdTech, professional training, educational institutions, e-learning, learning platform, educators"
+  },
+  "hero": {
+    "title": "Revolutionizing Education",
+    "subtitle": "The EdTech platform that transforms the way training is delivered",
+    "description": "DidaFlow is an innovative platform dedicated to educational institutions of all types. We offer advanced tools for creating effective learning paths, facilitating collaboration between educators, and analyzing learning outcomes."
+  },
+  "signup": {
+    "title": "🚀 Early Access",
+    "subtitle": "Join the waitlist and be among the first to discover DidaFlow",
+    "placeholder": "Enter your email",
+    "button": "Sign Up Now",
+    "success": "✅ Perfect! We've added you to the waitlist. We'll contact you soon!",
+    "error": "Please enter a valid email address."
+  },
+  "features": {
+    "design": {
+      "title": "Intuitive Design",
+      "description": "Modern and user-friendly interface designed for educators and students"
+    },
+    "analytics": {
+      "title": "Advanced Analytics",
+      "description": "Detailed monitoring of student progress and engagement"
+    },
+    "collaboration": {
+      "title": "Collaboration",
+      "description": "Tools to facilitate communication and teamwork"
+    },
+    "performance": {
+      "title": "Performance",
+      "description": "Speed and reliability for a smooth learning experience"
+    }
+  },
+  "launch": {
+    "title": "📅 Expected Launch: Q2 2025",
+    "description": "We're working hard to bring you the best possible experience. The launch is scheduled for the second quarter of 2025. Sign up to receive exclusive updates!"
+  },
+  "social": {
+    "linkedin": "LinkedIn",
+    "twitter": "Twitter",
+    "github": "GitHub"
+  }
+}

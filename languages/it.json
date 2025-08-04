@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "title": "DidaFlow - Rivoluzionando l'Educazione Universitaria",
+    "description": "DidaFlow sta arrivando! La nuova piattaforma EdTech che trasformerà il modo di fare formazione per enti formativi di ogni tipo. Iscriviti per essere tra i primi ad accedere.",
+    "keywords": "EdTech, formazione professionale, enti formativi, e-learning, piattaforma didattica, formatori"
+  },
+  "hero": {
+    "title": "Rivoluzionando l'Educazione",
+    "subtitle": "La piattaforma EdTech che trasforma il modo di fare formazione",
+    "description": "DidaFlow è una piattaforma innovativa dedicata agli enti formativi di ogni tipo. Offriamo strumenti avanzati per la creazione di percorsi formativi efficaci, la collaborazione tra formatori e l'analisi dei risultati di apprendimento."
+  },
+  "signup": {
+    "title": "🚀 Accesso Anticipato",
+    "subtitle": "Iscriviti alla lista d'attesa e sii tra i primi a scoprire DidaFlow",
+    "placeholder": "Inserisci la tua email",
+    "button": "Iscriviti Ora",
+    "success": "✅ Perfetto! Ti abbiamo aggiunto alla lista d'attesa. Ti contatteremo presto!",
+    "error": "Per favore inserisci un indirizzo email valido."
+  },
+  "features": {
+    "design": {
+      "title": "Design Intuitivo",
+      "description": "Interface moderna e user-friendly progettata per formatori e studenti"
+    },
+    "analytics": {
+      "title": "Analytics Avanzati",
+      "description": "Monitoraggio dettagliato dei progressi e dell'engagement degli studenti"
+    },
+    "collaboration": {
+      "title": "Collaborazione",
+      "description": "Strumenti per facilitare la comunicazione e il lavoro di gruppo"
+    },
+    "performance": {
+      "title": "Performance",
+      "description": "Velocità e affidabilità per un'esperienza di apprendimento fluida"
+    }
+  },
+  "launch": {
+    "title": "📅 Lancio Previsto: Q2 2025",
+    "description": "Stiamo lavorando duramente per portarti la migliore esperienza possibile. Il lancio è previsto per il secondo trimestre del 2025. Iscriviti per ricevere aggiornamenti esclusivi!"
+  },
+  "social": {
+    "linkedin": "LinkedIn",
+    "twitter": "Twitter",
+    "github": "GitHub"
+  }
+}

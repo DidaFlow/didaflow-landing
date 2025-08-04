@@ -1,37 +1,38 @@
 {
-  "version": 2,
-  "name": "didaflow-landing",
-  "builds": [
+  "rewrites": [
     {
-      "src": "index.html",
-      "use": "@vercel/static"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/index.html"
+      "source": "/(.*)",
+      "destination": "/index.html"
     }
   ],
   "redirects": [
     {
-      "source": "https://www.didaflow.ai/:path*",
+      "source": "/www.didaflow.ai/:path*",
       "destination": "https://didaflow.ai/:path*",
       "permanent": true
     },
     {
-      "source": "https://www.didaflow.com/:path*",
+      "source": "/www.didaflow.com/:path*",
       "destination": "https://didaflow.com/:path*",
       "permanent": true
     }
   ],
   "headers": [
     {
-      "source": "/(.*)",
+      "source": "/js/(.*)",
       "headers": [
         {
           "key": "Cache-Control",
           "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    },
+    {
+      "source": "/languages/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=86400, must-revalidate"
         }
       ]
     },

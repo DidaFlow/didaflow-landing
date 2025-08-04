@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "title": "DidaFlow - Révolutionner l'Éducation Universitaire",
+    "description": "DidaFlow arrive ! La nouvelle plateforme EdTech qui transformera la façon de faire de la formation pour tous types d'organismes de formation. Inscrivez-vous pour être parmi les premiers à y accéder.",
+    "keywords": "EdTech, formation professionnelle, organismes de formation, e-learning, plateforme didactique, formateurs"
+  },
+  "hero": {
+    "title": "Révolutionner l'Éducation",
+    "subtitle": "La plateforme EdTech qui transforme la façon de faire de la formation",
+    "description": "DidaFlow est une plateforme innovante dédiée aux organismes de formation de tous types. Nous offrons des outils avancés pour la création de parcours formatifs efficaces, la collaboration entre formateurs et l'analyse des résultats d'apprentissage."
+  },
+  "signup": {
+    "title": "🚀 Accès Anticipé",
+    "subtitle": "Rejoignez la liste d'attente et soyez parmi les premiers à découvrir DidaFlow",
+    "placeholder": "Entrez votre email",
+    "button": "S'inscrire Maintenant",
+    "success": "✅ Parfait ! Nous vous avons ajouté à la liste d'attente. Nous vous contacterons bientôt !",
+    "error": "Veuillez entrer une adresse email valide."
+  },
+  "features": {
+    "design": {
+      "title": "Design Intuitif",
+      "description": "Interface moderne et conviviale conçue pour les formateurs et étudiants"
+    },
+    "analytics": {
+      "title": "Analytics Avancés",
+      "description": "Suivi détaillé des progrès et de l'engagement des étudiants"
+    },
+    "collaboration": {
+      "title": "Collaboration",
+      "description": "Outils pour faciliter la communication et le travail en groupe"
+    },
+    "performance": {
+      "title": "Performance",
+      "description": "Vitesse et fiabilité pour une expérience d'apprentissage fluide"
+    }
+  },
+  "launch": {
+    "title": "📅 Lancement Prévu : Q2 2025",
+    "description": "Nous travaillons dur pour vous apporter la meilleure expérience possible. Le lancement est prévu pour le deuxième trimestre 2025. Inscrivez-vous pour recevoir des mises à jour exclusives !"
+  },
+  "social": {
+    "linkedin": "LinkedIn",
+    "twitter": "Twitter",
+    "github": "GitHub"
+  }
+}

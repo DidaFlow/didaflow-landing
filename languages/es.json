@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "title": "DidaFlow - Revolucionando la Educación Universitaria",
+    "description": "¡DidaFlow está llegando! La nueva plataforma EdTech que transformará la forma de hacer formación para entidades formativas de todo tipo. Regístrate para estar entre los primeros en acceder.",
+    "keywords": "EdTech, formación profesional, entidades formativas, e-learning, plataforma didáctica, formadores"
+  },
+  "hero": {
+    "title": "Revolucionando la Educación",
+    "subtitle": "La plataforma EdTech que transforma la forma de hacer formación",
+    "description": "DidaFlow es una plataforma innovadora dedicada a entidades formativas de todo tipo. Ofrecemos herramientas avanzadas para la creación de itinerarios formativos eficaces, la colaboración entre formadores y el análisis de resultados de aprendizaje."
+  },
+  "signup": {
+    "title": "🚀 Acceso Anticipado",
+    "subtitle": "Únete a la lista de espera y sé de los primeros en descubrir DidaFlow",
+    "placeholder": "Introduce tu email",
+    "button": "Regístrate Ahora",
+    "success": "✅ ¡Perfecto! Te hemos añadido a la lista de espera. ¡Te contactaremos pronto!",
+    "error": "Por favor introduce una dirección de email válida."
+  },
+  "features": {
+    "design": {
+      "title": "Diseño Intuitivo",
+      "description": "Interfaz moderna y user-friendly diseñada para formadores y estudiantes"
+    },
+    "analytics": {
+      "title": "Analytics Avanzados",
+      "description": "Monitorización detallada del progreso y engagement de los estudiantes"
+    },
+    "collaboration": {
+      "title": "Colaboración",
+      "description": "Herramientas para facilitar la comunicación y el trabajo en grupo"
+    },
+    "performance": {
+      "title": "Rendimiento",
+      "description": "Velocidad y fiabilidad para una experiencia de aprendizaje fluida"
+    }
+  },
+  "launch": {
+    "title": "📅 Lanzamiento Previsto: Q2 2025",
+    "description": "Estamos trabajando duro para ofrecerte la mejor experiencia posible. El lanzamiento está previsto para el segundo trimestre de 2025. ¡Regístrate para recibir actualizaciones exclusivas!"
+  },
+  "social": {
+    "linkedin": "LinkedIn",
+    "twitter": "Twitter",
+    "github": "GitHub"
+  }
+}
