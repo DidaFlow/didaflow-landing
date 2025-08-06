@@ -1,13 +1,13 @@
 {
   "meta": {
-    "title": "DidaFlow - Revolucionando la Educación Universitaria",
-    "description": "¡DidaFlow está llegando! La nueva plataforma EdTech que transformará la forma de hacer formación para entidades formativas de todo tipo. Regístrate para estar entre los primeros en acceder.",
+    "title": "DidaFlow - Inteligencia Artificial Interpretable para la Educación",
+    "description": "DidaFlow: plataforma de inteligencia artificial interpretable para universidades y entidades formativas. Transforma datos educativos en conocimiento estratégico con enfoque machine-in-the-loop.",
     "keywords": "EdTech, formación profesional, entidades formativas, e-learning, plataforma didáctica, formadores"
   },
   "hero": {
-    "title": "Revolucionando la Educación",
-    "subtitle": "La plataforma EdTech que transforma la forma de hacer formación",
-    "description": "DidaFlow es una plataforma innovadora dedicada a entidades formativas de todo tipo. Ofrecemos herramientas avanzadas para la creación de itinerarios formativos eficaces, la colaboración entre formadores y el análisis de resultados de aprendizaje."
+    "title": "Inteligencia Artificial Interpretable para la Educación",
+    "subtitle": "Transforma tus datos educativos en conocimiento estratégico y accionable",
+    "description": "DidaFlow es una plataforma de inteligencia artificial interpretable que apoya a universidades, escuelas de negocio y entidades formativas para predecir y mejorar la eficacia de los itinerarios educativos. Con nuestro enfoque machine-in-the-loop, profesores y responsables pueden anticipar el riesgo de abandono, optimizar la satisfacción estudiantil y aumentar la empleabilidad de los graduados."
   },
   "signup": {
     "title": "🚀 Acceso Anticipado",
@@ -18,26 +18,48 @@
     "error": "Por favor introduce una dirección de email válida."
   },
   "features": {
-    "design": {
-      "title": "Diseño Intuitivo",
-      "description": "Interfaz moderna y user-friendly diseñada para formadores y estudiantes"
+    "ai": {
+      "title": "Inteligencia Artificial Interpretable",
+      "description": "Enfoque machine-in-the-loop que mantiene al experto de dominio en el centro de las decisiones"
     },
-    "analytics": {
-      "title": "Analytics Avanzados",
-      "description": "Monitorización detallada del progreso y engagement de los estudiantes"
+    "prediction": {
+      "title": "Análisis Predictivo",
+      "description": "Anticipa el riesgo de abandono y simula el progreso de los itinerarios formativos"
     },
-    "collaboration": {
-      "title": "Colaboración",
-      "description": "Herramientas para facilitar la comunicación y el trabajo en grupo"
+    "optimization": {
+      "title": "Optimización Didáctica",
+      "description": "Mejora el diseño de cursos y reduce el desalineamiento entre expectativas y oferta"
     },
-    "performance": {
-      "title": "Rendimiento",
-      "description": "Velocidad y fiabilidad para una experiencia de aprendizaje fluida"
+    "knowledge": {
+      "title": "Base de Conocimiento",
+      "description": "Integra investigación pedagógica y psicológica para decisiones basadas en evidencia"
+    }
+  },
+  "team": {
+    "title": "Nuestro Equipo",
+    "founder": {
+      "name": "Marco Rossi",
+      "role": "CEO & Fundador"
+    },
+    "cto": {
+      "name": "Laura Bianchi",
+      "role": "CTO"
+    },
+    "researcher": {
+      "name": "Prof. Andrea Verdi",
+      "role": "Jefe de Investigación"
+    }
+  },
+  "partners": {
+    "title": "Nuestros Socios",
+    "unibo": {
+      "name": "Universidad de Bolonia",
+      "description": "Colaboración estratégica para la investigación en IA interpretable en educación"
     }
   },
   "launch": {
-    "title": "📅 Lanzamiento Previsto: Q2 2025",
-    "description": "Estamos trabajando duro para ofrecerte la mejor experiencia posible. El lanzamiento está previsto para el segundo trimestre de 2025. ¡Regístrate para recibir actualizaciones exclusivas!"
+    "title": "📅 Lanzamiento Previsto: H2 2025",
+    "description": "Estamos trabajando duro para ofrecerte la mejor experiencia posible. El lanzamiento está previsto para la segunda mitad de 2025. ¡Regístrate para recibir actualizaciones exclusivas!"
   },
   "social": {
     "linkedin": "LinkedIn",

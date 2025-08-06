@@ -1,13 +1,13 @@
 {
   "meta": {
-    "title": "DidaFlow - Revolutionizing University Education",
-    "description": "DidaFlow is coming! The new EdTech platform that will transform the way educational institutions deliver training. Sign up to be among the first to access it.",
+    "title": "DidaFlow - Interpretable Artificial Intelligence for Education",
+    "description": "DidaFlow: interpretable artificial intelligence platform for universities and educational institutions. Transform educational data into strategic knowledge with a machine-in-the-loop approach.",
     "keywords": "EdTech, professional training, educational institutions, e-learning, learning platform, educators"
   },
   "hero": {
-    "title": "Revolutionizing Education",
-    "subtitle": "The EdTech platform that transforms the way training is delivered",
-    "description": "DidaFlow is an innovative platform dedicated to educational institutions of all types. We offer advanced tools for creating effective learning paths, facilitating collaboration between educators, and analyzing learning outcomes."
+    "title": "Interpretable Artificial Intelligence for Education",
+    "subtitle": "Transform your educational data into strategic and actionable knowledge",
+    "description": "DidaFlow is an interpretable artificial intelligence platform that supports universities, business schools, and educational institutions in predicting and improving the effectiveness of educational pathways. With our machine-in-the-loop approach, faculty and administrators can anticipate dropout risk, optimize student satisfaction, and increase graduate employability."
   },
   "signup": {
     "title": "🚀 Early Access",
@@ -18,26 +18,48 @@
     "error": "Please enter a valid email address."
   },
   "features": {
-    "design": {
-      "title": "Intuitive Design",
-      "description": "Modern and user-friendly interface designed for educators and students"
+    "ai": {
+      "title": "Interpretable Artificial Intelligence",
+      "description": "Machine-in-the-loop approach that keeps the domain expert at the center of decisions"
     },
-    "analytics": {
-      "title": "Advanced Analytics",
-      "description": "Detailed monitoring of student progress and engagement"
+    "prediction": {
+      "title": "Predictive Analysis",
+      "description": "Anticipate dropout risk and simulate the progress of educational pathways"
     },
-    "collaboration": {
-      "title": "Collaboration",
-      "description": "Tools to facilitate communication and teamwork"
+    "optimization": {
+      "title": "Educational Optimization",
+      "description": "Improve course design and reduce misalignment between expectations and offerings"
     },
-    "performance": {
-      "title": "Performance",
-      "description": "Speed and reliability for a smooth learning experience"
+    "knowledge": {
+      "title": "Knowledge Base",
+      "description": "Integrate pedagogical and psychological research for evidence-based decisions"
+    }
+  },
+  "team": {
+    "title": "Our Team",
+    "founder": {
+      "name": "Marco Rossi",
+      "role": "CEO & Founder"
+    },
+    "cto": {
+      "name": "Laura Bianchi",
+      "role": "CTO"
+    },
+    "researcher": {
+      "name": "Prof. Andrea Verdi",
+      "role": "Head of Research"
+    }
+  },
+  "partners": {
+    "title": "Our Partners",
+    "unibo": {
+      "name": "University of Bologna",
+      "description": "Strategic collaboration for research in interpretable AI in education"
     }
   },
   "launch": {
-    "title": "📅 Expected Launch: Q2 2025",
-    "description": "We're working hard to bring you the best possible experience. The launch is scheduled for the second quarter of 2025. Sign up to receive exclusive updates!"
+    "title": "📅 Expected Launch: H2 2025",
+    "description": "We're working hard to bring you the best possible experience. The launch is scheduled for the second half of 2025. Sign up to receive exclusive updates!"
   },
   "social": {
     "linkedin": "LinkedIn",

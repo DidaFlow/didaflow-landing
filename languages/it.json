@@ -1,13 +1,13 @@
 {
   "meta": {
-    "title": "DidaFlow - Rivoluzionando l'Educazione Universitaria",
-    "description": "DidaFlow sta arrivando! La nuova piattaforma EdTech che trasformerà il modo di fare formazione per enti formativi di ogni tipo. Iscriviti per essere tra i primi ad accedere.",
+    "title": "DidaFlow - Intelligenza Artificiale Interpretabile per l'Educazione",
+    "description": "DidaFlow: piattaforma di intelligenza artificiale interpretabile per università ed enti formativi. Trasforma dati educativi in conoscenza strategica con approccio machine-in-the-loop.",
     "keywords": "EdTech, formazione professionale, enti formativi, e-learning, piattaforma didattica, formatori"
   },
   "hero": {
-    "title": "Rivoluzionando l'Educazione",
-    "subtitle": "La piattaforma EdTech che trasforma il modo di fare formazione",
-    "description": "DidaFlow è una piattaforma innovativa dedicata agli enti formativi di ogni tipo. Offriamo strumenti avanzati per la creazione di percorsi formativi efficaci, la collaborazione tra formatori e l'analisi dei risultati di apprendimento."
+    "title": "Intelligenza Artificiale Interpretabile per l'Educazione",
+    "subtitle": "Trasforma i tuoi dati educativi in conoscenza strategica e azionabile",
+    "description": "DidaFlow è una piattaforma di intelligenza artificiale interpretabile che supporta università, business school ed enti formativi nel prevedere e migliorare l'efficacia dei percorsi didattici. Con il nostro approccio machine-in-the-loop, docenti e responsabili possono anticipare il rischio di abbandono, ottimizzare la soddisfazione studentesca e aumentare l'occupabilità dei laureati."
   },
   "signup": {
     "title": "🚀 Accesso Anticipato",
@@ -18,26 +18,48 @@
     "error": "Per favore inserisci un indirizzo email valido."
   },
   "features": {
-    "design": {
-      "title": "Design Intuitivo",
-      "description": "Interface moderna e user-friendly progettata per formatori e studenti"
+    "ai": {
+      "title": "Intelligenza Artificiale Interpretabile",
+      "description": "Approccio machine-in-the-loop che mantiene l'esperto di dominio al centro delle decisioni"
     },
-    "analytics": {
-      "title": "Analytics Avanzati",
-      "description": "Monitoraggio dettagliato dei progressi e dell'engagement degli studenti"
+    "prediction": {
+      "title": "Analisi Predittiva",
+      "description": "Anticipa il rischio di abbandono e simula l'andamento dei percorsi formativi"
     },
-    "collaboration": {
-      "title": "Collaborazione",
-      "description": "Strumenti per facilitare la comunicazione e il lavoro di gruppo"
+    "optimization": {
+      "title": "Ottimizzazione Didattica",
+      "description": "Migliora la progettazione dei corsi e riduci il disallineamento tra aspettative e offerta"
     },
-    "performance": {
-      "title": "Performance",
-      "description": "Velocità e affidabilità per un'esperienza di apprendimento fluida"
+    "knowledge": {
+      "title": "Knowledge Base",
+      "description": "Integra ricerca pedagogica e psicologica per decisioni basate sull'evidenza"
+    }
+  },
+  "team": {
+    "title": "Il Nostro Team",
+    "founder": {
+      "name": "Marco Rossi",
+      "role": "CEO & Founder"
+    },
+    "cto": {
+      "name": "Laura Bianchi",
+      "role": "CTO"
+    },
+    "researcher": {
+      "name": "Prof. Andrea Verdi",
+      "role": "Head of Research"
+    }
+  },
+  "partners": {
+    "title": "I Nostri Partner",
+    "unibo": {
+      "name": "Università di Bologna",
+      "description": "Collaborazione strategica per la ricerca in AI interpretabile nell'educazione"
     }
   },
   "launch": {
-    "title": "📅 Lancio Previsto: Q2 2025",
-    "description": "Stiamo lavorando duramente per portarti la migliore esperienza possibile. Il lancio è previsto per il secondo trimestre del 2025. Iscriviti per ricevere aggiornamenti esclusivi!"
+    "title": "📅 Lancio Previsto: H2 2025",
+    "description": "Stiamo lavorando duramente per portarti la migliore esperienza possibile. Il lancio è previsto per la seconda metà del 2025. Iscriviti per ricevere aggiornamenti esclusivi!"
   },
   "social": {
     "linkedin": "LinkedIn",
