@@ -4,46 +4,58 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-DidaFlow Landing is a static website project for an EdTech platform. The project is designed as a vanilla HTML/CSS/JavaScript landing page without any build tools or package managers.
+DidaFlow Landing is a Next.js website project for an EdTech platform. The project uses modern React with TypeScript, Tailwind CSS, and is optimized for Vercel deployment.
 
 ## Repository Structure
 
-This is a minimal static website repository:
-- `README.md` - Project documentation in Italian
-- `LICENSE` - GNU GPL v3 license
-- `index.html` - Main landing page
+This is a Next.js application:
+- `src/app/` - Next.js App Router pages and components
+- `src/app/page.tsx` - Main landing page component
+- `src/app/layout.tsx` - Root layout with metadata
+- `src/app/globals.css` - Global CSS styles
+- `public/` - Static assets
+- `package.json` - Dependencies and scripts
+- `tailwind.config.js` - Tailwind CSS configuration
 - `vercel.json` - Vercel deployment configuration
-- `.gitignore` - Git ignore rules
-- `assets/` - Static assets directory (optional, for future organization)
 
 ## Development Approach
 
 ### Technology Stack
-- **HTML5** - Semantic structure
-- **CSS3** - Modern styling with Grid/Flexbox
-- **Vanilla JavaScript** - No frameworks or libraries
+- **Next.js 15** - React framework with App Router
+- **TypeScript** - Type safety
+- **Tailwind CSS** - Utility-first CSS framework
+- **React Hooks** - State management (useState, useEffect)
+- **EmailJS** - Email form integration
 - **Google Fonts** - Inter typography
 
 ### Design System
-- Primary Blue: `#3b82f6`
-- Secondary Cyan: `#06b6d4`
-- Dark Background: `#0f172a`
-- Text Colors: `#ffffff` / `#94a3b8`
+- Primary Blue: `bg-blue-500` (Tailwind)
+- Secondary Cyan: `bg-cyan-500` (Tailwind)
+- Dark Background: `bg-slate-900` (Tailwind)
+- Text Colors: `text-white`, `text-slate-300`, `text-slate-400` (Tailwind)
 - Font: Inter (Google Fonts) with weights 300, 400, 500, 600, 700
 
-### Key Features to Implement
-- Modern responsive design
-- Fluid animations (CSS only)
-- Early access email form
-- Performance optimized (vanilla JS)
+### Key Features
+- Modern responsive design with Tailwind CSS
+- Fluid animations using Tailwind animations
+- Multi-language support (IT, EN, ES, FR)
+- Early access email form with EmailJS
+- Performance optimized with Next.js
 - Mobile-first approach
 
 ## Development Workflow
 
-Since this is a static site with no build process:
-1. Edit files directly
-2. Test by opening `index.html` in browser
-3. No compilation or build steps required
+### Local Development
+1. `npm install` - Install dependencies
+2. `npm run dev` - Start development server
+3. `npm run build` - Build for production
+4. `npm run start` - Start production server
+
+### File Structure
+- Edit React components in `src/app/`
+- Translations are embedded in the main component
+- Styles use Tailwind CSS classes
+- Custom animations defined in `tailwind.config.js`
 
 ## Deployment
 
