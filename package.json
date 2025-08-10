@@ -6,7 +6,10 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "typecheck": "tsc --noEmit",
+    "lint": "next lint",
+    "clean": "node -e \"require('fs').rmSync('.next',{recursive:true,force:true});require('fs').rmSync('.vercel',{recursive:true,force:true});\"",
+    "check:unused-public": "node scripts/find-unused-public.js"
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",

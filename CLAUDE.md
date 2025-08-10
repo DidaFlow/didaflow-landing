@@ -9,6 +9,7 @@ DidaFlow Landing is a Next.js website project for an EdTech platform. The projec
 ## Repository Structure
 
 This is a Next.js application:
+
 - `src/app/` - Next.js App Router pages and components
 - `src/app/page.tsx` - Main landing page component
 - `src/app/layout.tsx` - Root layout with metadata
@@ -18,72 +19,64 @@ This is a Next.js application:
 - `tailwind.config.js` - Tailwind CSS configuration
 - `vercel.json` - Vercel deployment configuration
 
-## Development Approach
+## General Guidelines
 
-### Technology Stack
-- **Next.js 15** - React framework with App Router
-- **TypeScript** - Type safety
-- **Tailwind CSS** - Utility-first CSS framework
-- **React Hooks** - State management (useState, useEffect)
-- **EmailJS** - Email form integration
-- **Google Fonts** - Inter typography
+You are a senior Next.js (App Router) + TypeScript engineer working in this repo:
 
-### Design System
-- Primary Blue: `bg-blue-500` (Tailwind)
-- Secondary Cyan: `bg-cyan-500` (Tailwind)
-- Dark Background: `bg-slate-900` (Tailwind)
-- Text Colors: `text-white`, `text-slate-300`, `text-slate-400` (Tailwind)
-- Font: Inter (Google Fonts) with weights 300, 400, 500, 600, 700
+Repo facts (do not change unless asked):
 
-### Key Features
-- Modern responsive design with Tailwind CSS
-- Fluid animations using Tailwind animations
-- Multi-language support (IT, EN, ES, FR)
-- Early access email form with EmailJS
-- Performance optimized with Next.js
-- Mobile-first approach
+- Next.js App Router at: src/app/*
+- Global styles: src/app/globals.css (Tailwind enabled via tailwind.config.js, postcss.config.mjs)
+- App shell: src/app/layout.tsx
+- Home: src/app/page.tsx
+- Public assets: public/*
+- Configs: next.config.ts, eslint.config.mjs, tailwind.config.js, tsconfig.json, vercel.json
+- Docs: README.md, LICENSE, CLAUDE.md
 
-## Development Workflow
+Non-goals / Do Not Change (unless explicitly requested):
 
-### Local Development
-1. `npm install` - Install dependencies
-2. `npm run dev` - Start development server
-3. `npm run build` - Build for production
-4. `npm run start` - Start production server
+- Build/deploy config: next.config.ts, vercel.json
+- ESLint/TS base config (eslint.config.mjs, tsconfig.json)
+- Project dependencies in package.json
+- Public asset filenames/paths
 
-### File Structure
-- Edit React components in `src/app/`
-- Translations are embedded in the main component
-- Styles use Tailwind CSS classes
-- Custom animations defined in `tailwind.config.js`
+Hard constraints:
 
-## Deployment
+- TypeScript strict; no `any`.
+- Server Components by default; use Client Components only for interactivity.
+- Styling: Tailwind CSS utilities only. No UI libraries.
+- Data fetching: `fetch()` in Server Components or Route Handlers.
+- English only for UI/content.
+- Accessibility first (semantic HTML, labels, keyboard paths).
+- Minimalism: no new dependencies or polyfills unless I explicitly approve.
 
-### Vercel (Configured)
-The project is configured for automatic deployment on Vercel:
-1. The `vercel.json` file configures static hosting
-2. Automatic deployment on every git push
-3. Custom domain support available
+Output format for EVERY task:
 
-### Setup Steps:
-1. Push code to GitHub repository
-2. Connect repository to Vercel dashboard
-3. Vercel will automatically detect and deploy
+1) **Plan**: 3–6 bullets.
+2) **Diffs**: file-by-file unified diffs from repo root (e.g., `--- a/src/app/page.tsx` / `+++ b/src/app/page.tsx`).
+3) **Notes**: brief rationale (perf/a11y/minimalism). If you introduce a Client Component, justify it.
 
-### Other Options:
-- **GitHub Pages** - Set Pages to deploy from main branch
-- **Netlify** - Connect repository for automatic deployment
+CSS/Tailwind guardrails:
 
-## Email Integration
+- Prefer utilities in JSX; keep `globals.css` for resets, root tokens (colors, spacing), and minimal layer overrides.
+- Use a spacing scale based on Tailwind defaults (4/8/12/16 px equivalents via `space-y-*`, `p-*`, `gap-*`).
+- Max content width: `max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8`.
+- Typography: system stack or `Inter` if already present; otherwise **do not add fonts**.
+- Buttons/links: focus-visible rings, hover/active states via Tailwind state variants.
+- Responsive: mobile-first; collapse multi-column -> single column on small screens.
 
-The form should be integrated with one of:
-- Mailchimp
-- ConvertKit
-- EmailJS
-- Custom backend
+Acceptance criteria (apply by default):
 
-Replace the `handleEmailSubmit()` function in `index.html` with the chosen service integration.
+- No runtime errors; builds locally with current config.
+- No dependency changes.
+- Server Components unless interactivity is required.
+- A11y: labeled controls, headings in logical order, sufficient color contrast.
+- Responsive across mobile/tablet/desktop.
 
-## Content Language
+If a test is relevant:
 
-All content is in Italian, targeting Italian-speaking educational institutions.
+- Provide a tiny example test using what’s already in the repo; if test tooling is missing, **do not add deps**—instead, include a commented “manual verify” snippet in the Notes.
+
+If you must touch configs or add deps:
+
+- STOP and ask for explicit approval with a one-paragraph justification and alternatives.
