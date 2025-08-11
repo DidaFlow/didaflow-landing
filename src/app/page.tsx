@@ -1,4 +1,15 @@
 import Link from "next/link";
+import Icon from "../components/Icon";
+import {
+  faBullseye,
+  faChartLine,
+  faRocket,
+  faCheck,
+  faLaptopCode,
+  faGraduationCap,
+  faGlobe,
+  faBriefcase
+} from '../lib/fontawesome';
 
 export default function Home() {
   return (
@@ -27,24 +38,26 @@ export default function Home() {
 
       <main id="main">
         {/* Hero Section */}
-        <section className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-20 text-center">
-          <h1 className="mb-6 text-blue-600">DidaFlow trasforma i dati formativi in azioni strategiche</h1>
-          <p className="mx-auto max-w-3xl text-lg text-zinc-700 mb-8">
-            Aiutiamo istituzioni e provider di formazione a decidere in modo rapido, informato e mirato — per il successo di studenti e partecipanti.
-          </p>
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
-            <Link
-              href="#demo"
-              className="focus-ring inline-flex items-center justify-center rounded-md bg-blue-600 px-6 py-3 text-white font-medium hover:bg-blue-700 active:bg-blue-800"
-            >
-              Prenota Demo Gratuita
-            </Link>
-            <Link
-              href="#scheda-tecnica"
-              className="focus-ring inline-flex items-center justify-center rounded-md border border-zinc-300 px-6 py-3 font-medium hover:bg-zinc-50"
-            >
-              Scarica Scheda Tecnica
-            </Link>
+        <section className="bg-gradient-to-br from-blue-50 via-indigo-50 to-blue-100 relative">
+          <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-20 text-center relative z-10">
+            <h1 className="mb-6 text-blue-600">DidaFlow trasforma i dati formativi in azioni strategiche</h1>
+            <p className="mx-auto max-w-3xl text-lg text-zinc-700 mb-8">
+              Aiutiamo istituzioni e provider di formazione a decidere in modo rapido, informato e mirato — per il successo di studenti e partecipanti.
+            </p>
+            <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
+              <Link
+                href="#demo"
+                className="focus-ring inline-flex items-center justify-center rounded-md bg-blue-600 px-6 py-3 text-white font-medium hover:bg-blue-700 active:bg-blue-800"
+              >
+                Prenota Demo Gratuita
+              </Link>
+              <Link
+                href="#scheda-tecnica"
+                className="focus-ring inline-flex items-center justify-center rounded-md border border-zinc-300 px-6 py-3 font-medium hover:bg-zinc-50"
+              >
+                Scarica Scheda Tecnica
+              </Link>
+            </div>
           </div>
         </section>
 
@@ -100,21 +113,21 @@ export default function Home() {
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
               <div className="bg-white rounded-lg border border-zinc-200 p-6 text-center shadow-sm">
                 <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mx-auto mb-4">
-                  <span className="text-2xl" aria-hidden="true">🎯</span>
+                  <Icon icon={faBullseye} className="text-blue-600" size="xl" aria-hidden />
                 </div>
                 <h3 className="mb-3 text-blue-600">Aumentare l&apos;attrattività</h3>
                 <p className="text-zinc-700 text-sm">Analizza performance e value proposition per programmi più competitivi.</p>
               </div>
               <div className="bg-white rounded-lg border border-zinc-200 p-6 text-center shadow-sm">
                 <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mx-auto mb-4">
-                  <span className="text-2xl" aria-hidden="true">📈</span>
+                  <Icon icon={faChartLine} className="text-blue-600" size="xl" aria-hidden />
                 </div>
                 <h3 className="mb-3 text-blue-600">Migliorare continuità e completamento</h3>
                 <p className="text-zinc-700 text-sm">Individua precocemente chi è a rischio e intervieni in modo preventivo.</p>
               </div>
               <div className="bg-white rounded-lg border border-zinc-200 p-6 text-center shadow-sm">
                 <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mx-auto mb-4">
-                  <span className="text-2xl" aria-hidden="true">🚀</span>
+                  <Icon icon={faRocket} className="text-blue-600" size="xl" aria-hidden />
                 </div>
                 <h3 className="mb-3 text-blue-600">Ridurre lo skill gap</h3>
                 <p className="text-zinc-700 text-sm">Allinea percorsi e competenze al mercato del lavoro, migliorando placement e upskilling.</p>
@@ -241,19 +254,19 @@ export default function Home() {
                 <div className="text-2xl font-bold text-blue-600 mb-6">€2.500-5.000/anno</div>
                 <ul className="space-y-2 text-left text-sm">
                   <li className="flex items-center text-zinc-700">
-                    <span className="text-green-500 mr-2">✓</span>
+                    <Icon icon={faCheck} className="text-green-500 mr-2" size="sm" aria-hidden />
                     Dashboard real-time
                   </li>
                   <li className="flex items-center text-zinc-700">
-                    <span className="text-green-500 mr-2">✓</span>
+                    <Icon icon={faCheck} className="text-green-500 mr-2" size="sm" aria-hidden />
                     Analisi predittive
                   </li>
                   <li className="flex items-center text-zinc-700">
-                    <span className="text-green-500 mr-2">✓</span>
+                    <Icon icon={faCheck} className="text-green-500 mr-2" size="sm" aria-hidden />
                     Report automatici
                   </li>
                   <li className="flex items-center text-zinc-700">
-                    <span className="text-green-500 mr-2">✓</span>
+                    <Icon icon={faCheck} className="text-green-500 mr-2" size="sm" aria-hidden />
                     Supporto tecnico
                   </li>
                 </ul>
@@ -264,19 +277,19 @@ export default function Home() {
                 <div className="text-2xl font-bold text-blue-600 mb-6">€5.000-15.000</div>
                 <ul className="space-y-2 text-left text-sm">
                   <li className="flex items-center text-zinc-700">
-                    <span className="text-green-500 mr-2">✓</span>
+                    <Icon icon={faCheck} className="text-green-500 mr-2" size="sm" aria-hidden />
                     Analisi iniziale
                   </li>
                   <li className="flex items-center text-zinc-700">
-                    <span className="text-green-500 mr-2">✓</span>
+                    <Icon icon={faCheck} className="text-green-500 mr-2" size="sm" aria-hidden />
                     Integrazione sistemi
                   </li>
                   <li className="flex items-center text-zinc-700">
-                    <span className="text-green-500 mr-2">✓</span>
+                    <Icon icon={faCheck} className="text-green-500 mr-2" size="sm" aria-hidden />
                     Configurazione custom
                   </li>
                   <li className="flex items-center text-zinc-700">
-                    <span className="text-green-500 mr-2">✓</span>
+                    <Icon icon={faCheck} className="text-green-500 mr-2" size="sm" aria-hidden />
                     Formazione team
                   </li>
                 </ul>
@@ -287,19 +300,19 @@ export default function Home() {
                 <div className="text-2xl font-bold text-blue-600 mb-6">€1.500-3.000/anno</div>
                 <ul className="space-y-2 text-left text-sm">
                   <li className="flex items-center text-zinc-700">
-                    <span className="text-green-500 mr-2">✓</span>
+                    <Icon icon={faCheck} className="text-green-500 mr-2" size="sm" aria-hidden />
                     Workshop mensili
                   </li>
                   <li className="flex items-center text-zinc-700">
-                    <span className="text-green-500 mr-2">✓</span>
+                    <Icon icon={faCheck} className="text-green-500 mr-2" size="sm" aria-hidden />
                     Supporto prioritario
                   </li>
                   <li className="flex items-center text-zinc-700">
-                    <span className="text-green-500 mr-2">✓</span>
+                    <Icon icon={faCheck} className="text-green-500 mr-2" size="sm" aria-hidden />
                     Best practices
                   </li>
                   <li className="flex items-center text-zinc-700">
-                    <span className="text-green-500 mr-2">✓</span>
+                    <Icon icon={faCheck} className="text-green-500 mr-2" size="sm" aria-hidden />
                     Aggiornamenti inclusi
                   </li>
                 </ul>
@@ -327,7 +340,7 @@ export default function Home() {
         </section>
 
         {/* FAQ Section */}
-        <section className="bg-zinc-50 py-12 sm:py-16">
+        <section id="faq" className="bg-zinc-50 py-12 sm:py-16">
           <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-12">
               <h2 className="mb-4">Domande Frequenti</h2>
@@ -400,7 +413,7 @@ export default function Home() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               <div className="bg-white rounded-lg border border-zinc-200 p-6 text-center shadow-sm">
                 <div className="w-24 h-24 bg-zinc-200 rounded-full mx-auto mb-4 flex items-center justify-center text-3xl" aria-hidden="true">
-                  👨‍💻
+                  <Icon icon={faLaptopCode} className="text-zinc-600" size="2xl" aria-hidden />
                 </div>
                 <h3 className="mb-2">Stefano Zingaro</h3>
                 <p className="text-blue-600 mb-4 font-medium">Assistant Professor UNIBO, CTO & Founder</p>
@@ -410,7 +423,7 @@ export default function Home() {
               </div>
               <div className="bg-white rounded-lg border border-zinc-200 p-6 text-center shadow-sm">
                 <div className="w-24 h-24 bg-zinc-200 rounded-full mx-auto mb-4 flex items-center justify-center text-3xl" aria-hidden="true">
-                  🎓
+                  <Icon icon={faGraduationCap} className="text-zinc-600" size="2xl" aria-hidden />
                 </div>
                 <h3 className="mb-2">Maurizio Gabbrielli</h3>
                 <p className="text-blue-600 mb-4 font-medium">Full Professor UNIBO, Founder</p>
@@ -420,7 +433,7 @@ export default function Home() {
               </div>
               <div className="bg-white rounded-lg border border-zinc-200 p-6 text-center shadow-sm">
                 <div className="w-24 h-24 bg-zinc-200 rounded-full mx-auto mb-4 flex items-center justify-center text-3xl" aria-hidden="true">
-                  🌍
+                  <Icon icon={faGlobe} className="text-zinc-600" size="2xl" aria-hidden />
                 </div>
                 <h3 className="mb-2">Francesco Balzan</h3>
                 <p className="text-blue-600 mb-4 font-medium">CEO & Founder</p>
@@ -430,7 +443,7 @@ export default function Home() {
               </div>
               <div className="bg-white rounded-lg border border-zinc-200 p-6 text-center shadow-sm">
                 <div className="w-24 h-24 bg-zinc-200 rounded-full mx-auto mb-4 flex items-center justify-center text-3xl" aria-hidden="true">
-                  💼
+                  <Icon icon={faBriefcase} className="text-zinc-600" size="2xl" aria-hidden />
                 </div>
                 <h3 className="mb-2">Cristiano Boscato</h3>
                 <p className="text-blue-600 mb-4 font-medium">CEO di Dinova</p>
@@ -456,49 +469,54 @@ export default function Home() {
               <p className="text-zinc-400 mb-6">
                 Trasformiamo i dati universitari in azione strategica.
               </p>
-              <p className="text-sm text-zinc-400 mb-4">
-                🏛️ DidaFlow è un progetto nato all&apos;interno dell&apos;Università di Bologna e ha ricevuto
-                supporto dal programma FAIR - Future Artificial Intelligence Research per l&apos;innalzamento del TRL
-              </p>
               <div className="flex gap-4 text-sm text-zinc-400">
-                <span>✓ Spin-off UNIBO accreditato</span>
-                <span>✓ GDPR Compliance certificata</span>
+                <span><Icon icon={faCheck} className="text-green-400 mr-1" size="sm" aria-hidden /> Spin-off UNIBO accreditato</span>
+                <span><Icon icon={faCheck} className="text-green-400 mr-1" size="sm" aria-hidden /> GDPR Compliance certificata</span>
               </div>
             </div>
 
             <div>
-              <h4 className="font-medium mb-4">Contatti</h4>
+              <h4 className="font-medium mb-4">Supporto</h4>
               <ul className="space-y-2 text-zinc-400 text-sm">
-                <li>📧 <a href="mailto:stefano.zingaro@unibo.it">hello@didaflow.ai</a></li>
-                <li>📍 Bologna, Italia</li>
+                <li><Link href="/contatti" className="hover:text-white focus-ring">Contattaci</Link></li>
+                <li><Link href="#faq" className="hover:text-white focus-ring">FAQ</Link></li>
+                <li id="scheda-tecnica">
+                  <Link href="/docs/scheda-tecnica.pdf" className="hover:text-white focus-ring">Scheda Tecnica</Link>
+                </li>
               </ul>
             </div>
 
             <div>
-              <h4 className="font-medium mb-4">Risorse</h4>
+              <h4 className="font-medium mb-4">Legal</h4>
               <ul className="space-y-2 text-zinc-400 text-sm">
-                <li id="scheda-tecnica">
-                  <Link href="/docs/scheda-tecnica.pdf" className="hover:text-white focus-ring">📄 Scheda Tecnica</Link>
-                </li>
-                <li><Link href="#" className="hover:text-white focus-ring">📊 Whitepaper</Link></li>
-                <li><Link href="#" className="hover:text-white focus-ring">🎯 Case Studies</Link></li>
+                <li><Link href="/terms-of-service" className="hover:text-white focus-ring">Terms of Service</Link></li>
+                <li><Link href="/privacy-policy" className="hover:text-white focus-ring">Privacy Policy</Link></li>
               </ul>
             </div>
           </div>
 
-          <div className="border-t border-zinc-800 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
+          <div className="border-t border-zinc-800 mt-8 pt-8">
+            <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
+              <div className="text-zinc-400 text-xs leading-relaxed">
+                <p className="mb-2">
+                  © {new Date().getFullYear()} DidaFlow. Tutti i diritti riservati.
+                </p>
+                <p className="mb-2">
+                  Con il supporto di <Link href="https://fondazione-fair.it/" className="hover:text-white focus-ring">
+                    Future Artificial Intelligence Research (FAIR) Foundation
+                  </Link>
+                  {" "}– FC 93098910503
+                </p>
+              </div>
 
-            <p className="text-zinc-400 text-sm">
-              © {new Date().getFullYear()} DidaFlow. Tutti i diritti riservati.
-            </p>
-
-            <div className="flex gap-4 mt-4 md:mt-0">
-              <Link href="#" className="text-zinc-400 hover:text-white focus-ring" title="LinkedIn">
-                <span className="sr-only">LinkedIn</span>
-                <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
-                </svg>
-              </Link>
+              <div className="flex gap-4">
+                <Link href="#" className="text-zinc-400 hover:text-white focus-ring" title="LinkedIn">
+                  <span className="sr-only">LinkedIn</span>
+                  <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+                  </svg>
+                </Link>
+              </div>
             </div>
           </div>
         </div>
